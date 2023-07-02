@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap");
+
+html {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 1440px;
+  color: var(--fs);
+  background-color: var(--bg-recipe-header);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5.5rem;
+}
+
+.hero .img img {
+  width: 40.9rem;
+  height: 29.3rem;
+}
+
+.hero .title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.hero .title h1 {
+  color: var(--title);
+  font-size: clamp(6rem, 5vw, 7.2rem);
+  font-weight: 700;
+}
+
+.hero .title p {
+  color: var(--title);
+  font-size: clamp(2.1rem, 5vw, 3.8rem);
+}
+
+.hero .portion {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.hero .portion p {
+  color: var(--bg-recipe);
+  font-size: clamp(2rem, 5vw, 3.6rem);
+}
+
+.recipe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6.4rem;
+  background-color: var(--bg-recipe);
+  min-height: calc(100vh - 32.1rem);
+}
+
+.recipe h2 {
+  font-weight: 700;
+  font-size: clamp(3.3rem, 5vw, 3.8rem);
+}
+
+.recipe h2 img {
+  padding-right: 0.5rem;
+}
+
+.recipe .preparation .instructions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+.recipe .preparation .instructions .quant {
+  padding-right: 0.5rem;
+}
+
+footer {
+  background-color: var(--bg-recipe);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1rem;
+}
