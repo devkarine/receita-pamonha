@@ -14,11 +14,11 @@ Este projeto foi proposto pela rockseat, no programa #boracodar, que tem como ob
 
 ### ⌨ Funcionalidades
 
-- Ao apertar nos botões de mais, ele aumenta a a quantidade das porções e te dá as proporções de acordo com o número escolhido e quando apertar o botão de menos, diminui.
+- Ao apertar nos botões de mais, ele aumenta a quantidade das porções e te dá as proporções de acordo com o número escolhido e quando apertar o botão de menos, diminui.
 
 ## 🖱️ A página
 
-<img src="src/img/mobile.gif" alt="Gif exibindo uma demonstração do site">
+<img src="src/img/gif.gif" alt="Gif exibindo uma demonstração do site">
 
 > <a href="https://devkarine.github.io/receita-pamonha/" target= "_blank">Acesse a página online</a>
 
